@@ -1,6 +1,40 @@
 # Usage Instructions
 ----------------------------------------------------------
-
+## desired structure
+```
+pizza_detector/
+│
+├── data/
+│   ├── training/
+│   │   ├── pizza/
+│   │   └── not_pizza/
+│   ├── validation/
+│   │   ├── pizza/
+│   │   └── not_pizza/
+│   └── test/
+│       ├── pizza/
+│       └── not_pizza/
+│
+├── models/
+│   └── saved_models/
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── data_preprocessing.py
+│   ├── model.py
+│   ├── train.py
+│   └── inference.py
+│
+├── utils/
+│   ├── __init__.py
+│   └── image_utils.py
+│
+├── main.py
+├── gui_app.py
+├── requirements.txt
+└── README.md
+```
 ## Create a virtual environment and install requirements:
 ```bashCopypython -m venv venv```
 ```# On mac: source venv/bin/activate```
