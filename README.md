@@ -1,6 +1,6 @@
 # Usage Instructions
 ----------------------------------------------------------
-## desired structure
+## desired folder structure
 ```
 pizza_detector/
 │
