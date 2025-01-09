@@ -1,4 +1,4 @@
-# Usage Instructions
+# Pizza detector using python
 ----------------------------------------------------------
 ## desired folder structure
 ```
@@ -35,6 +35,7 @@ pizza_detector/
 ├── requirements.txt
 └── README.md
 ```
+# Usage Instructions
 ## Create a virtual environment and install requirements:
 ```bashCopypython -m venv venv```
 ```# On mac: source venv/bin/activate```
